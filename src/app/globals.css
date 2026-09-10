@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Full system default base style override background colors layout constraints */
+html, body {
+  background-color: #020617 !important;
+  color: #f8fafc !important;
+  font-family: "Aptos", "Segoe UI", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
